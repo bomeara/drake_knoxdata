@@ -35,5 +35,12 @@ The example uses data downloaded from https://transtats.bts.gov/DL_SelectFields.
 * More info: Free drake book (with videos, too): https://books.ropensci.org/drake/
 * The old way: https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R. We call the R packages we need, load the data, make the output.
 * A basic drake way: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple
+  * In this directory, open R, then you can do `source("make.R")` to run the plan.
+  * You'll see plots being made (but the order might differ from the script only version)
+  * `vis_drake_graph(plan)` to see how the plan works
 * A more fully featured drake way: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex
+  * In this directory, open R, then you can do `source("make.R")` to run the plan.
+  * You'll see plots being made (but the order might differ from the script only version)
+  * `vis_drake_graph(plan)` to see how the plan works
+  * This uses parametric Rmarkdown
 * Output from this: https://bomeara.github.io/drake_knoxdata/airport_overview.html

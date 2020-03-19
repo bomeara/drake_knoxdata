@@ -13,7 +13,7 @@ navbar:
     href: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple
   - text: Drake complex
     href: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex
-  - text: Drake complex product
+  - text: Fancy result
     href: airport_overview.html
 
 output:

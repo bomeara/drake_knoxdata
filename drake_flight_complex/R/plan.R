@@ -10,5 +10,5 @@ plan <- drake_plan(
      params = list(summaries=summaries),
      quiet = TRUE
    ),
-   rmarkdown::render_site(input="../docs")
+   site = rmarkdown::render_site(input="../docs")
 )
