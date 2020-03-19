@@ -1,0 +1,13 @@
+name: drake_tutorial
+output_dir: '.'
+navbar:
+  title: Drake Tutorial
+  left:
+  - text: Home
+    href: index.html
+
+output:
+  html_document:
+    theme: flatly
+    lib_dir: site_libs
+    self_contained: no

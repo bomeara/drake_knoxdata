@@ -1,0 +1,13 @@
+---
+title: "Drake for KnoxData"
+---
+
+This is a presentation by [Brian O'Meara](http://brianomeara.info) for the KnoxData group on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R.
+
+You can see code examples made for this at https://github.com/bomeara/drake_knoxdata.
+
+This also uses
+
+* tidyverse
+* rmarkdown
+* cowplot
