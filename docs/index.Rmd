@@ -2,8 +2,8 @@
 title: "Drake for KnoxData"
 ---
 
-This is a presentation by [Brian O'Meara](http://brianomeara.info) for the [KnoxData group](https://www.meetup.com/knoxdata/) on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R. Thank you to
-Josh Rosenberg & Alex Pawlowski fo
+This is a presentation by [Brian O'Meara](http://brianomeara.info) for the [KnoxData group](https://www.meetup.com/knoxdata/) on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R. Thank you to Josh Rosenberg & Alex Pawlowski for inviting me.
+
 You can see code examples made for this at https://github.com/bomeara/drake_knoxdata; to download everything to your computer, https://github.com/bomeara/drake_knoxdata/archive/master.zip
 
 This also uses
@@ -23,7 +23,7 @@ The example uses data downloaded from https://transtats.bts.gov/DL_SelectFields.
   * RMarkdown
   * Parametric RMarkdown
 
-## Outline
+## Outline of presentation
 
 * Who am I: http://brianomeara.info. I study evolution by creating and using new methods, often implemented in R. You can see my [github profile](https://github.com/bomeara), too.
 * Why drake?
