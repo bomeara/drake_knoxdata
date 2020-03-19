@@ -9,5 +9,6 @@ plan <- drake_plan(
      output_file = file_out(paste0("../docs/airport_overview.html")),
      params = list(summaries=summaries),
      quiet = TRUE
-    )
+   ),
+   rmarkdown::render_site(input="../docs")
 )

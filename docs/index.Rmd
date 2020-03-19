@@ -2,9 +2,9 @@
 title: "Drake for KnoxData"
 ---
 
-This is a presentation by [Brian O'Meara](http://brianomeara.info) for the KnoxData group on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R.
-
-You can see code examples made for this at https://github.com/bomeara/drake_knoxdata.
+This is a presentation by [Brian O'Meara](http://brianomeara.info) for the [KnoxData group](https://www.meetup.com/knoxdata/) on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R. Thank you to
+Josh Rosenberg & Alex Pawlowski fo
+You can see code examples made for this at https://github.com/bomeara/drake_knoxdata; to download everything to your computer, https://github.com/bomeara/drake_knoxdata/archive/master.zip
 
 This also uses
 
@@ -15,6 +15,25 @@ This also uses
 
 The example uses data downloaded from https://transtats.bts.gov/DL_SelectFields.asp: Flight arrivals and departures for US airports for December, 2019.
 
-## Outline to follow along with:
+## Learning objectives
 
-* The old way: https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R
+* Utility of workflows
+* How and why to use
+  * drake
+  * RMarkdown
+  * Parametric RMarkdown
+
+## Outline
+
+* Who am I: http://brianomeara.info. I study evolution by creating and using new methods, often implemented in R. You can see my [github profile](https://github.com/bomeara), too.
+* Why drake?
+  * Reproducibility: https://github.com/bomeara/ReturnOfTheMinivan analysis for a paper (https://doi.org/10.1002/ajb2.1278)
+  * Scalability: Comparing over 1,000 faculty Google Scholar profiles for department 10 year report.
+  * Saving time: Tweak something, only things that depend on it need to be updated
+* Why RMarkdown?
+  * Make reports that can easily be changed with different data
+* More info: Free drake book (with videos, too): https://books.ropensci.org/drake/
+* The old way: https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R. We call the R packages we need, load the data, make the output.
+* A basic drake way: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple
+* A more fully featured drake way: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex
+* Output from this: https://bomeara.github.io/drake_knoxdata/airport_overview.html

@@ -307,8 +307,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>This is a presentation by <a href="http://brianomeara.info">Brian O’Meara</a> for the KnoxData group on March 19, 2020, on the <a href="https://github.com/ropensci/drake">drake</a> package for making a workflow in R.</p>
-<p>You can see code examples made for this at <a href="https://github.com/bomeara/drake_knoxdata" class="uri">https://github.com/bomeara/drake_knoxdata</a>.</p>
+<p>This is a presentation by <a href="http://brianomeara.info">Brian O’Meara</a> for the <a href="https://www.meetup.com/knoxdata/">KnoxData group</a> on March 19, 2020, on the <a href="https://github.com/ropensci/drake">drake</a> package for making a workflow in R. Thank you to Josh Rosenberg &amp; Alex Pawlowski fo You can see code examples made for this at <a href="https://github.com/bomeara/drake_knoxdata" class="uri">https://github.com/bomeara/drake_knoxdata</a>; to download everything to your computer, <a href="https://github.com/bomeara/drake_knoxdata/archive/master.zip" class="uri">https://github.com/bomeara/drake_knoxdata/archive/master.zip</a></p>
 <p>This also uses</p>
 <ul>
 <li>tidyverse</li>
@@ -317,10 +316,37 @@ $(document).ready(function () {
 <li>future</li>
 </ul>
 <p>The example uses data downloaded from <a href="https://transtats.bts.gov/DL_SelectFields.asp" class="uri">https://transtats.bts.gov/DL_SelectFields.asp</a>: Flight arrivals and departures for US airports for December, 2019.</p>
-<div id="outline-to-follow-along-with" class="section level2">
-<h2>Outline to follow along with:</h2>
+<div id="learning-objectives" class="section level2">
+<h2>Learning objectives</h2>
 <ul>
-<li>The old way: <a href="https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R" class="uri">https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R</a></li>
+<li>Utility of workflows</li>
+<li>How and why to use
+<ul>
+<li>drake</li>
+<li>RMarkdown</li>
+<li>Parametric RMarkdown</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline" class="section level2">
+<h2>Outline</h2>
+<ul>
+<li>Who am I: <a href="http://brianomeara.info" class="uri">http://brianomeara.info</a>. I study evolution by creating and using new methods, often implemented in R. You can see my <a href="https://github.com/bomeara">github profile</a>, too.</li>
+<li>Why drake?
+<ul>
+<li>Reproducibility: <a href="https://github.com/bomeara/ReturnOfTheMinivan" class="uri">https://github.com/bomeara/ReturnOfTheMinivan</a> analysis for a paper (<a href="https://doi.org/10.1002/ajb2.1278" class="uri">https://doi.org/10.1002/ajb2.1278</a>)</li>
+<li>Scalability: Comparing over 1,000 faculty Google Scholar profiles for department 10 year report.</li>
+<li>Saving time: Tweak something, only things that depend on it need to be updated</li>
+</ul></li>
+<li>Why RMarkdown?
+<ul>
+<li>Make reports that can easily be changed with different data</li>
+</ul></li>
+<li>More info: Free drake book (with videos, too): <a href="https://books.ropensci.org/drake/" class="uri">https://books.ropensci.org/drake/</a></li>
+<li>The old way: <a href="https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R" class="uri">https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R</a>. We call the R packages we need, load the data, make the output.</li>
+<li>A basic drake way: <a href="https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple" class="uri">https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple</a></li>
+<li>A more fully featured drake way: <a href="https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex" class="uri">https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex</a></li>
+<li>Output from this: <a href="https://bomeara.github.io/drake_knoxdata/airport_overview.html" class="uri">https://bomeara.github.io/drake_knoxdata/airport_overview.html</a></li>
 </ul>
 </div>
 
