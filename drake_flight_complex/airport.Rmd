@@ -1,0 +1,32 @@
+---
+title: "Airport performance"
+author: "Brian O'Meara"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+params:
+  focal_airport:
+    value: TYS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+drake::loadd(all_flights)
+```
+
+## Airport performance
+
+This shows the December, 2019, performance for `r params$focal_airport` airport. 
+
+```{r performance}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,9 +1,10 @@
-GetFocalFlights <- function() {
+GetAllFlights <- function() {
   flights <- readr::read_csv("../data/flightsDec2019.zip")
   flights[is.na(flights)] <- 0
+  return(flights)
+}
 
-  focal_airport <- "TYS"
-
+GetFocalFlights <- function(focal_airport="TYS", flights) {
   focal_outbound <- subset(flights, ORIGIN==focal_airport)
   focal_outbound$Direction <- "Outbound"
   focal_outbound$TAXI_LOCAL <- focal_outbound$TAXI_OUT
