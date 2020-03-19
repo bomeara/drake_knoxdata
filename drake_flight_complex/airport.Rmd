@@ -9,24 +9,30 @@ params:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
 drake::loadd(all_flights)
+focal_flights <- GetFocalFlights(focal_airport=params$focal_airport, flights=all_flights)
+
 ```
 
 ## Airport performance
 
-This shows the December, 2019, performance for `r params$focal_airport` airport. 
+This shows the December, 2019, performance for `r params$focal_airport` airport.
 
-```{r performance}
-summary(cars)
+### Causes of delays
+
+```{r delays, echo=FALSE}
+PlotDelays(focal_flights)
 ```
 
-## Including Plots
+### Flight traffic over time
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r flightsdaily, echo=FALSE}
+PlotTotalsDaily(focal_flights)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Flights by day of week
+
+```{r flightsbyday, echo=FALSE}
+PlotTotalsByDay(focal_flights)
+```
