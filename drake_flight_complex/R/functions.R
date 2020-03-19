@@ -81,3 +81,7 @@ MakeParametricReport <- function(focal_airport) {
     )
  return(output)
 }
+
+RenderSite <- function(summaries, summary) {
+  rmarkdown::render_site(input="../docs")
+}
