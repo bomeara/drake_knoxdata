@@ -1,0 +1,17 @@
+---
+title: "Airport overview"
+author: "Brian O'Meara"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+params:
+  summaries: !r data.frame(airport="None")
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+summaries <- params$summaries
+```
+
+```{r table, echo=FALSE}
+knitr::kable(summaries)
+```
