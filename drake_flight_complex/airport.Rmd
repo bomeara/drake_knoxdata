@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
 drake::loadd(all_flights)
 focal_flights <- GetFocalFlights(focal_airport=params$focal_airport, flights=all_flights)
 
+
 ```
 
 ## Airport performance

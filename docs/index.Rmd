@@ -11,3 +11,10 @@ This also uses
 * tidyverse
 * rmarkdown
 * cowplot
+* future
+
+The example uses data downloaded from https://transtats.bts.gov/DL_SelectFields.asp: Flight arrivals and departures for US airports for December, 2019.
+
+## Outline to follow along with:
+
+* The old way: https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R

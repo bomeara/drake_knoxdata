@@ -5,6 +5,16 @@ navbar:
   left:
   - text: Home
     href: index.html
+  - text: Source
+    href: https://github.com/bomeara/drake_knoxdata
+  - text: Old way
+    href: https://github.com/bomeara/drake_knoxdata/blob/master/basic_scripts/flight.R
+  - text: Drake basic
+    href: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_simple
+  - text: Drake complex
+    href: https://github.com/bomeara/drake_knoxdata/blob/master/drake_flight_complex
+  - text: Drake complex product
+    href: airport_overview.html
 
 output:
   html_document:
