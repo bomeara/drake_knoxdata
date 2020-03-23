@@ -19,7 +19,7 @@ GetFocalFlights <- function() {
 HistogramPlot <- function(delay, focal_flights) {
   p<-ggplot(focal_flights, aes_string(x=delay, color="Direction")) +
     geom_freqpoly(binwidth=15, position="identity" , alpha=0.7)+
-    theme(legend.justification=c(1,1), legend.position=c(0.95, 0.95)) + scale_y_log10() + xlim(0, NA) + scale_color_viridis_d(end=0.7) + xlab("Minutes delay (15 min increments)") + ylab("Number of flights") + ggtitle(tolower(gsub("_", " ",delay)))
+    theme(legend.justification=c(1,1), legend.position=c(0.95, 0.95)) + scale_y_log10() + xlim(0, NA) + scale_color_viridis_d(end=0.5) + xlab("Minutes delay (15 min increments)") + ylab("Number of flights") + ggtitle(tolower(gsub("_", " ",delay)))
     return(p)
 }
 

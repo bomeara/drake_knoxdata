@@ -4,6 +4,10 @@ title: "Drake for KnoxData"
 
 This is a presentation by [Brian O'Meara](http://brianomeara.info) for the [KnoxData group](https://www.meetup.com/knoxdata/) on March 19, 2020, on the [drake](https://github.com/ropensci/drake) package for making a workflow in R. Thank you to Josh Rosenberg & Alex Pawlowski for inviting me.
 
+The talk is available [here](https://youtu.be/pA50LQdY7Tk).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pA50LQdY7Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can see code examples made for this at https://github.com/bomeara/drake_knoxdata; to download everything to your computer, https://github.com/bomeara/drake_knoxdata/archive/master.zip
 
 This also uses
